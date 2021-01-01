@@ -220,32 +220,7 @@ th.w-40 {
 /*********** New Menu ***********/
 
 .sidebar-pf-left {
-  /* background: #292e34; */
-  background: -webkit-linear-gradient(
-    -90deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
-  );
-  background: -o-linear-gradient(
-    -180deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
-  );
-  background: -moz-linear-gradient(
-    -180deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
-  );
-  background: -ms-linear-gradient(
-    -180deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
-  );
-  background: linear-gradient(
-    -180deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
-  );
+  background: #292e34;
 }
 
 .sidebar-pf .nav-pills > li a i,
@@ -522,6 +497,34 @@ table.credential-data-table td.key {
   font-weight: bold;
 }
 /* Custom */
+.sidebar-pf-left {
+  background: rgba(255, 255, 255, 0);
+  background: -webkit-linear-gradient(
+    -180deg,
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
+  );
+  background: -o-linear-gradient(
+    -180deg,
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
+  );
+  background: -moz-linear-gradient(
+    -180deg,
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
+  );
+  background: -ms-linear-gradient(
+    -180deg,
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
+  );
+  background: linear-gradient(
+    -180deg,
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
+  );
+}
 .fa::before {
   color: #000;
 }
@@ -535,9 +538,8 @@ table.credential-data-table td.key {
 .sidebar-pf .nav-pills > li.active > a {
   font-weight: 600;
   border-left-color: white !important;
-  background: rgba(54, 156, 242, 254) !important;
-  border-top: 1px solid white !important;
-  border-bottom: 1px solid white !important;
+  background: #2091f3 !important;
+  border: none !important;
 }
 .sidebar-pf .nav-pills > li > a:hover {
   background: #c2c6c9;
@@ -549,9 +551,11 @@ table.credential-data-table td.key {
 .sidebar-pf .nav-pills > li > a {
   color: white;
   font-weight: 500;
+  border: none;
+  padding-left: 50px !important;
 }
 .realm-selector h2 {
-  font-weight: 800;
+  font-weight: 700;
 }
 .realm-selector ul li a {
   font-weight: 600;
@@ -559,63 +563,66 @@ table.credential-data-table td.key {
 }
 .btn-primary {
   background: -webkit-linear-gradient(
-    -90deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
+    -180deg,
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
   );
   background: -o-linear-gradient(
     -180deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
   );
   background: -moz-linear-gradient(
     -180deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
   );
   background: -ms-linear-gradient(
     -180deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
   );
   background: linear-gradient(
     -180deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
   );
 }
 .form-control {
   border-color: coral;
-  border-radius: 15rem;
+  width: 75%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .form-control:hover {
   border-color: #1a80e6;
 }
 .onoffswitch .onoffswitch-inner .onoffswitch-active {
-  background-image: -webkit-linear-gradient(
-    -90deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
-  );
-  background-image: -o-linear-gradient(
+  background: rgba(255, 255, 255, 0);
+  background: -webkit-linear-gradient(
     -180deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
   );
-  background-image: -moz-linear-gradient(
+  background: -o-linear-gradient(
     -180deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
   );
-  background-image: -ms-linear-gradient(
+  background: -moz-linear-gradient(
     -180deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
   );
-  background-image: linear-gradient(
+  background: -ms-linear-gradient(
     -180deg,
-    rgba(54, 156, 242, 252) 0%,
-    rgba(27, 78, 121, 252) 100%
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
+  );
+  background: linear-gradient(
+    -180deg,
+    rgba(14, 111, 239, 255) 0%,
+    rgba(7, 56, 120, 255) 100%
   );
 }
 .onoffswitch .onoffswitch-switch {
@@ -623,6 +630,17 @@ table.credential-data-table td.key {
 }
 .nav-tabs > li.active > a {
   color: #1a80e6;
+  font-weight: 600;
+  border-color: #1a80e6;
+  border-bottom-color: transparent;
+}
+.nav-tabs {
+  border-bottom-color: #1a80e6;
+}
+.nav-tabs > li > a:active,
+.nav-tabs > li > a:focus,
+.nav-tabs > li > a:hover {
+  border-color: #1a80e6;
 }
 a {
   color: #1a80e6;
@@ -640,4 +658,23 @@ a {
   background-color: #1a80e6;
   color: white;
   border-color: #1a80e6;
+}
+@media (min-width: 768px) {
+  .form-horizontal .control-label {
+    padding-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child > .btn,
+.input-group-btn:first-child > .btn-group > .btn,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn-group:not(:last-child) > .btn,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+  margin-top: 0;
+}
+.btn-default:focus {
+  outline: none !important;
 }
