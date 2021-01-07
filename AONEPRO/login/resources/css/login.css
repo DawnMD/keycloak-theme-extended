@@ -782,7 +782,7 @@ div.kc-logo-text {
 }
 .pf-c-form-control:not(textarea) {
   border: none !important;
-  border-bottom: 1px solid black !important;
+  border-bottom: 1px solid rgba(255, 127, 80, 0.5) !important;
 }
 .pf-c-form-control:focus {
   outline: none;
