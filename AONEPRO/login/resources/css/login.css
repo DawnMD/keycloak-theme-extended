@@ -799,6 +799,7 @@ div.kc-logo-text {
   border: solid 1px;
 }
 .pf-c-button.pf-m-block {
+  font-size: 14px;
   border-radius: 15rem;
   border: 1px solid;
 }
@@ -832,4 +833,7 @@ h4 {
     background: white;
     margin: 20.5px 19px;
   }
+}
+.login-pf-page .login-pf-signup a {
+  font-size: 12px;
 }
