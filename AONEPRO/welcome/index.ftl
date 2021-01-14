@@ -49,7 +49,7 @@
     <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
       <div class="welcome-header">
         <img src="${resourcesPath}/logo.png" alt="${productName}" border="0" />
-        <h1>Welcome to <strong>${productNameFull}</strong></h1>
+        <h1>Welcome to <strong>AONePRO</strong></h1>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-4">
@@ -96,7 +96,7 @@
             <div class="welcome-primary-link">
               <h3><a href="${adminUrl}"><img src="welcome-content/user.png">Administration Console <i class="fa fa-angle-right link" aria-hidden="true"></i></a></h3>
               <div class="description">
-                Centrally manage all aspects of the ${productNameFull} server
+                Centrally manage all aspects of the AONEPRO server
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@
         <div class="col-xs-12 col-sm-4">
         <#if properties.displayCommunityLinks = "true">
           <div class="card-pf h-m">
-            <h3><a href="http://www.keycloak.org"><img src="welcome-content/keycloak-project.png">Keycloak Project <i class="fa fa-angle-right link" aria-hidden="true"></i></a></h3>
+            <h3><a href="http://www.keycloak.org"><img src="welcome-content/keycloak-project.png">AONEPRO Project <i class="fa fa-angle-right link" aria-hidden="true"></i></a></h3>
           </div>
           <div class="card-pf h-m">
             <h3><a href="https://groups.google.com/forum/#!forum/keycloak-user"><img src="welcome-content/mail.png">Mailing List <i class="fa fa-angle-right link" aria-hidden="true"></i></a></h3>
